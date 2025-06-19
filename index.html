@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thibaut Mermoz Grekovoungbo - Portfolio</title>
+        <meta name="description"
+            content="Portfolio de Thibaut Mermoz Grekovoungbo - Analyste Programmeur et Ingénieur de Conception spécialisé en développement logiciel et analyse de données.">
+        <meta name="keywords"
+            content="développeur, programmeur, analyste, full-stack, PHP, Python, JavaScript">
+        <meta name="author" content="Thibaut Mermoz Grekovoungbo">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://thibaut-portfolio.com">
+        <meta property="og:title"
+            content="Thibaut Mermoz Grekovoungbo - Portfolio">
+        <meta property="og:description"
+            content="Analyste Programmeur et Ingénieur de Conception spécialisé en développement logiciel">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://thibaut-portfolio.com">
+        <meta property="twitter:title"
+            content="Thibaut Mermoz Grekovoungbo - Portfolio">
+        <meta property="twitter:description"
+            content="Analyste Programmeur et Ingénieur de Conception spécialisé en développement logiciel">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Particules de fond -->
+        <div class="particles-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <!-- Navigation -->
+        <header class="header" id="header">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <a href="#home" class="logo-link">
+                        <div class="logo">
+                            <span class="logo-letter">T</span>
+                            <span class="logo-letter">M</span>
+                            <span class="logo-letter">G</span>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">Thibaut Mermoz</span>
+                            <span class="logo-title">Développeur
+                                Full-Stack</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Checkbox pour le menu mobile -->
+                <input type="checkbox" id="nav-toggle"
+                    class="nav-toggle-checkbox" hidden>
+
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link active">
+                        <span class="nav-number">01.</span>
+                        <span class="nav-text">Accueil</span>
+                    </a>
+                    <a href="#about" class="nav-link">
+                        <span class="nav-number">02.</span>
+                        <span class="nav-text">À propos</span>
+                    </a>
+                    <a href="#experience" class="nav-link">
+                        <span class="nav-number">03.</span>
+                        <span class="nav-text">Expérience</span>
+                    </a>
+                    <a href="#education" class="nav-link">
+                        <span class="nav-number">04.</span>
+                        <span class="nav-text">Formation</span>
+                    </a>
+                    <a href="#skills" class="nav-link">
+                        <span class="nav-number">05.</span>
+                        <span class="nav-text">Compétences</span>
+                    </a>
+                    <a href="#projects" class="nav-link">
+                        <span class="nav-number">06.</span>
+                        <span class="nav-text">Projets</span>
+                    </a>
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-number">07.</span>
+                        <span class="nav-text">Contact</span>
+                    </a>
+                </div>
+
+                <div class="nav-actions">
+                    <!-- Toggle thème avec checkbox -->
+                    <input type="checkbox" id="theme-toggle"
+                        class="theme-toggle-checkbox" hidden>
+                    <label for="theme-toggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </label>
+                    <a href="my_cv.pdf" class="btn btn-primary btn-cv">
+                        <i class="fas fa-download"></i>
+                        <span>Télécharger CV</span>
+                    </a>
+                </div>
+
+                <label for="nav-toggle" class="nav-toggle-btn">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </label>
+            </nav>
+        </header>
+
+        <!-- Section Hero -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <div class="hero-shape shape-1"></div>
+                <div class="hero-shape shape-2"></div>
+                <div class="hero-shape shape-3"></div>
+            </div>
+
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-greeting">
+                            <span class="greeting-text">Salut, je suis</span>
+                            <div class="greeting-wave">👋</div>
+                        </div>
+
+                        <h1 class="hero-title">
+                            <span class="title-line">
+                                <span class="title-word"
+                                    data-text="Thibaut">Thibaut</span>
+                                <span class="title-word"
+                                    data-text="Mermoz">Mermoz</span>
+                            </span>
+                            <span class="title-line">
+                                <span class="title-word gradient-text"
+                                    data-text="Grekovoungbo">Grekovoungbo</span>
+                            </span>
+                        </h1>
+
+                        <div class="hero-subtitle">
+                            <span class="typing-text">Analyste Programmeur &
+                                Ingénieur de Conception</span>
+                            <span class="cursor-blink">|</span>
+                        </div>
+
+                        <p class="hero-description">
+                            Passionné par le développement logiciel et l'analyse
+                            de données,
+                            je transforme les idées complexes en solutions
+                            numériques élégantes et fonctionnelles.
+                        </p>
+
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">3</span>
+                                <span class="stat-label">Années
+                                    d'expérience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10</span>
+                                <span class="stat-label">Technologies
+                                    maîtrisées</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Projets réalisés</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-buttons">
+                            <a href="#contact"
+                                class="btn btn-primary btn-contact">
+                                <span>Me contacter</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#projects"
+                                class="btn btn-secondary btn-projects">
+                                <span>Voir mes projets</span>
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+
+                        <div class="hero-social">
+                            <a
+                                href="https://www.linkedin.com/in/thibaut-mermoz-grekovoungbo-b527352b6/"
+                                class="social-link"
+                                data-tooltip="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/GrekGuitHub"
+                                class="social-link"
+                                data-tooltip="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link"
+                                data-tooltip="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="mailto:thibautgrekov@gmail.com"
+                                class="social-link" data-tooltip="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="profile-container">
+                            <div class="profile-card">
+                                <div class="profile-image">
+                                    <img src="thibaut.jpeg"
+                                        alt="Thibaut Mermoz Grekovoungbo"
+                                        class="profile-img">
+                                    <div class="profile-overlay"></div>
+                                </div>
+                                <div class="profile-info">
+                                    <h3 class="profile-name">Thibaut Mermoz</h3>
+                                    <p class="profile-role">Développeur
+                                        Full-Stack</p>
+                                    <div class="profile-status">
+                                        <div class="status-indicator"></div>
+                                        <span>Disponible pour de nouveaux
+                                            projets</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="floating-elements">
+                                <div class="floating-card tech-card">
+                                    <i class="fab fa-js-square"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="floating-card tech-card">
+                                    <i class="fab fa-php"></i>
+                                    <span>PHP</span>
+                                </div>
+                                <div class="floating-card tech-card">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="scroll-text">Scroll</div>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02.</span>
+                    <h2 class="section-title">À propos de moi</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="text-block">
+                            <p class="highlight-text">
+                                Je suis un <strong>analyste programmeur
+                                    passionné</strong> avec une solide formation
+                                en
+                                <strong>mathématiques</strong> et en
+                                <strong>programmation</strong>. Mon parcours m'a
+                                permis
+                                d'acquérir une expertise technique diversifiée
+                                et une approche analytique des problèmes
+                                complexes.
+                            </p>
+                        </div>
+
+                        <div class="text-block">
+                            <p>
+                                Actuellement en <strong>licence d'Analyse et
+                                    Programmation</strong>, je continue
+                                d'approfondir
+                                mes connaissances tout en appliquant mes
+                                compétences dans des projets concrets et
+                                innovants.
+                            </p>
+                        </div>
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:thibautgrekov@gmail.com"
+                                        class="contact-value">thibautgrekov@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Téléphone</span>
+                                    <span class="contact-value">074966707 /
+                                        062938498</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span
+                                        class="contact-label">Localisation</span>
+                                    <span class="contact-value">BP:2263
+                                        Libreville-IAI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-visual">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <span class="stat-number">3</span>
+                                    <span class="stat-plus">+</span>
+                                    <span class="stat-label">Années
+                                        d'expérience</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <span class="stat-number">10</span>
+                                    <span class="stat-plus">+</span>
+                                    <span class="stat-label">Technologies</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-project-diagram"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <span class="stat-number">5</span>
+                                    <span class="stat-plus">+</span>
+                                    <span class="stat-label">Projets
+                                        réalisés</span>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <span class="stat-number">3</span>
+                                    <span class="stat-plus">+</span>
+                                    <span class="stat-label">Formations</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Expérience -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03.</span>
+                    <h2 class="section-title">Expérience professionnelle</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="job-title">Stage Académique</h3>
+                                <div class="job-meta">
+                                    <span class="company">
+                                        <i class="fas fa-building"></i>
+                                        KNETWORKING, LALALA
+                                    </span>
+                                    <span class="period">
+                                        <i class="fas fa-calendar"></i>
+                                        2024
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="job-tasks">
+                                <li>Conception et Programmation
+                                    d'applications</li>
+                                <li>Configuration et déploiement de réseaux</li>
+                                <li>Mise en place d'infrastructure microtic</li>
+                            </ul>
+                            <div class="job-technologies">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Réseaux</span>
+                                <span class="tech-tag">Maintenance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="job-title">Maintenancier</h3>
+                                <div class="job-meta">
+                                    <span class="company">
+                                        <i class="fas fa-building"></i>
+                                        YAMATECH, Bangui
+                                    </span>
+                                    <span class="period">
+                                        <i class="fas fa-calendar"></i>
+                                        2021 - 2022
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="job-tasks">
+                                <li>Maintenance matérielle des ordinateurs</li>
+                                <li>Réparation et maintenance des
+                                    smartphones</li>
+                                <li>Diagnostic et résolution de problèmes
+                                    techniques</li>
+                            </ul>
+                            <div class="job-technologies">
+                                <span class="tech-tag">Hardware</span>
+                                <span class="tech-tag">Mobile</span>
+                                <span class="tech-tag">Diagnostic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="job-title">Assistant au Cyber
+                                    Café</h3>
+                                <div class="job-meta">
+                                    <span class="company">
+                                        <i class="fas fa-building"></i>
+                                        SOCATEL (Centrafrique)
+                                    </span>
+                                    <span class="period">
+                                        <i class="fas fa-calendar"></i>
+                                        2020 - 2021
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="job-tasks">
+                                <li>Gestion et accompagnement des clients</li>
+                                <li>Maintenance logicielle des ordinateurs</li>
+                                <li>Support technique utilisateur</li>
+                            </ul>
+                            <div class="job-technologies">
+                                <span class="tech-tag">Support</span>
+                                <span class="tech-tag">Maintenance</span>
+                                <span class="tech-tag">Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Formation -->
+        <section id="education" class="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">04.</span>
+                    <h2 class="section-title">Formation</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="card-header">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <span class="education-status">En cours</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="education-title">Licence en Analyse et
+                                Programmation</h3>
+                            <p class="education-period">
+                                <i class="fas fa-calendar"></i>
+                                2023 - 2024
+                            </p>
+                            <p class="education-description">
+                                Spécialisation en développement logiciel et
+                                analyse de systèmes
+                            </p>
+                            <div class="education-skills">
+                                <span class="skill-pill">Développement</span>
+                                <span class="skill-pill">Analyse</span>
+                                <span class="skill-pill">Systèmes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="card-header">
+                            <div class="education-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="education-title">DUT en
+                                Programmation</h3>
+                            <p class="education-period">
+                                <i class="fas fa-calendar"></i>
+                                2022 - 2023
+                            </p>
+                            <p class="education-description">
+                                Formation technique en développement
+                                d'applications
+                            </p>
+                            <div class="education-skills">
+                                <span class="skill-pill">Applications</span>
+                                <span class="skill-pill">Technique</span>
+                                <span class="skill-pill">Programmation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="card-header">
+                            <div class="education-icon">
+                                <i class="fas fa-square-root-alt"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="education-title">Licence en
+                                Mathématiques</h3>
+                            <p class="education-period">
+                                <i class="fas fa-calendar"></i>
+                                2019 - 2022
+                            </p>
+                            <p class="education-description">
+                                Fondements mathématiques et logique
+                                algorithmique
+                            </p>
+                            <div class="education-skills">
+                                <span class="skill-pill">Mathématiques</span>
+                                <span class="skill-pill">Logique</span>
+                                <span class="skill-pill">Algorithmes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">05.</span>
+                    <h2 class="section-title">Compétences techniques</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="category-title">Langages de
+                                programmation</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PHP</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C/C++</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3 class="category-title">Frameworks & Outils</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Laravel</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Bootstrap</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3 class="category-title">Base de données</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Oracle</span>
+                                    <span class="skill-level">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3 class="category-title">Langues</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Français</span>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Anglais</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress skill-80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">06.</span>
+                    <h2 class="section-title">Projets réalisés</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Système de prise de rendez-vous">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Système de prise de
+                                    rendez-vous</h3>
+                                <div class="project-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Application web permettant la gestion complète
+                                des rendez-vous avec interface utilisateur
+                                intuitive et système de notifications.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Application de partage de documents">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Application de partage
+                                    de documents</h3>
+                                <div class="project-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Plateforme collaborative en ligne pour le
+                                partage sécurisé de documents avec gestion
+                                des droits d'accès.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Vue.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-cta">
+                    <a href="#" class="btn btn-primary btn-more-projects">
+                        <span>Voir tous mes projets</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">07.</span>
+                    <h2 class="section-title">Contactez-moi</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-text">
+                            <h3 class="contact-title">Discutons de votre
+                                projet</h3>
+                            <p class="contact-description">
+                                Je suis toujours ouvert à de nouvelles
+                                opportunités et défis.
+                                N'hésitez pas à me contacter pour discuter de
+                                vos projets ou pour toute collaboration.
+                            </p>
+                        </div>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-info">
+                                    <span class="method-label">Email</span>
+                                    <a href="mailto:thibautgrekov@gmail.com"
+                                        class="method-value">thibautgrekov@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-info">
+                                    <span class="method-label">Téléphone</span>
+                                    <a href="tel:074966707"
+                                        class="method-value">074966707</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-info">
+                                    <span
+                                        class="method-label">Localisation</span>
+                                    <span class="method-value">BP:2263
+                                        Libreville-IAI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name"
+                                    required>
+                                <label for="name">Nom complet</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email"
+                                    required>
+                                <label for="email">Adresse email</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject"
+                                    required>
+                                <label for="subject">Sujet</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5"
+                                    required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+
+                            <button type="submit"
+                                class="btn btn-primary btn-send">
+                                <span>Envoyer le message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-main">
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                <span class="logo-letter">T</span>
+                                <span class="logo-letter">M</span>
+                                <span class="logo-letter">G</span>
+                            </div>
+                            <div class="footer-text">
+                                <h4>Thibaut Mermoz Grekovoungbo</h4>
+                                <p>Développeur Full-Stack passionné</p>
+                            </div>
+                        </div>
+
+                        <div class="footer-social">
+                            <a
+                                href="https://www.linkedin.com/in/thibaut-mermoz-grekovoungbo-b527352b6/"
+                                class="footer-social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/GrekGuitHub"
+                                class="footer-social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="footer-social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="mailto:thibautgrekov@gmail.com"
+                                class="footer-social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="footer-copyright">
+                            <p>&copy; 2024 Thibaut Mermoz Grekovoungbo. Tous
+                                droits réservés.</p>
+                        </div>
+
+                        <div class="footer-interests">
+                            <span class="interests-label">Centres
+                                d'intérêts:</span>
+                            <div class="interests-list">
+                                <span class="interest-item">
+                                    <i class="fas fa-book"></i>
+                                    Lecture
+                                </span>
+                                <span class="interest-item">
+                                    <i class="fas fa-futbol"></i>
+                                    Sport
+                                </span>
+                                <span class="interest-item">
+                                    <i class="fas fa-music"></i>
+                                    Musique
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bouton retour en haut -->
+        <a href="#home" class="scroll-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </body>
+</html>
